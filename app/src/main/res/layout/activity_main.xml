@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TP2"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exo1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Exercice 1"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName" />
+
+    <Button
+        android:id="@+id/exo2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Exercice 2"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/exo1_btn"
+        app:layout_constraintTop_toBottomOf="@+id/exo1_btn" />
+
+    <Button
+        android:id="@+id/exo3_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Exercice 3"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/exo2_btn"
+        app:layout_constraintTop_toBottomOf="@+id/exo2_btn" />
+
+    <Button
+        android:id="@+id/exo4_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Exercice 4"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/exo3_btn"
+        app:layout_constraintTop_toBottomOf="@+id/exo3_btn" />
+
+    <Button
+        android:id="@+id/exo5_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Exercice 5"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/exo4_btn"
+        app:layout_constraintTop_toBottomOf="@+id/exo4_btn" />
+
+    <Button
+        android:id="@+id/exo6_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Exercice 6"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/exo5_btn"
+        app:layout_constraintTop_toBottomOf="@+id/exo5_btn" />
+
+    <Button
+        android:id="@+id/exo7_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Exercice 7"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/exo6_btn"
+        app:layout_constraintTop_toBottomOf="@+id/exo6_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
